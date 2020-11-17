@@ -39,4 +39,5 @@ dp = Dispatcher(bot)
 
 
 def main(dispatcher: Dispatcher):
+
     executor.start_polling(dispatcher, skip_updates=True)
